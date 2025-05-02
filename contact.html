@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Web Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">UK Adventure Holidays</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="paragliding.html">Paragliding</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rockclimbing.html">Rock Climbing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="waterrafting.html">Water Rafting</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+
+   <!-- start to add your content below here -->
+
+    <h1>Contact</h1>
+    <iframe width="900" height="500" src="https://www.youtube.com/embed/aV4nddYNZL8?si=kyWlzOJ4qOyM2IlL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+   
+    <!-- do not add anymore content after here -->
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Contact Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #00ff15;
+            color: rgb(0, 0, 0);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            background-color: rgba(59, 12, 12, 0.397);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgb(30, 255, 0);
+        }
+        h2 {
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        input, select, textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #00ff15;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #00ff15;
+            color: rgb(255, 255, 255);
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            ;
+        }
+        button:hover {
+            background-color: #00ff15;
+        }
+    </style>
+</head>
+<body>
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Booking Contact Form</h2>
+
+        <form id="bookingForm">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Preferred Time</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="message">Your Chosen Activity </label>
+            <textarea id="message" name="message" rows="4" placeholder="The activity you want to do type it here"></textarea>
+
+            <button type="submit"><strong>Submit Booking Request</strong></button> 
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('bookingForm').onsubmit = function(event) {
+            event.preventDefault();  
+
+           
+            window.location.href = "thankyou.html";  
+        };
+    </script>
+</body>
+</html>
+
+   
+    
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <footer>© Adventure Holidays 2022</footer>
+</body>
+</html>
